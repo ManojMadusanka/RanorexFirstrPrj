@@ -12,13 +12,15 @@ import org.testng.annotations.Test;
 class TC2 extends TestNgTestBase {
     @Test
     public void checkForTotalAmountUsingFastCheckout() {
+
+        //commit 1
+         //commit 2
+        
         WebDriver driver = getDriver();
         // No setup code needed - {@link TestNgTestBase} creates the driver instance
 
         // Open the page
-        ItemsOverviewPo overview = new ItemsOverviewPo(driver).open("https://demoshop.webtestit.com/");
-
-        Assert.fail();
+        ItemsOverviewPo overview = new ItemsOverviewPo(driver).open("https://demoshop.webtestit.com/");      
 
         // Add items to the cart
         CartPo cart = overview.addItem1ToCart().addItem2ToCart().addItem3ToCart().clickOnCart();
