@@ -1,0 +1,48 @@
+{
+  "endpoints": [
+    {
+      "active": true,
+      "capabilities": {},
+      "headless": true,
+      "id": "01154129-48ca-2f21-5497-bbc52814a2aa",
+      "info": "v74.0.3729.108",
+      "name": "chrome1headless",
+      "type": "local",
+      "version": "74.0.3729.108",
+      "browserName": "chrome"
+    },
+    {
+      "active": false,
+      "capabilities": {},
+      "headless": false,
+      "id": "f840b511-7971-44d9-66b6-4d7f02e54857",
+      "info": "v74.0.3729.108",
+      "name": "Opera1",
+      "type": "local",
+      "version": "74.0.3729.108",
+      "browserName": "chrome"
+    },
+    {
+      "active": false,
+      "capabilities": {},
+      "headless": false,
+      "id": "e16b5d3f-49bd-f934-6a5a-3a4fd380dd3e",
+      "info": "v66.0.3",
+      "name": "firefox1",
+      "type": "local",
+      "version": "66.0.3",
+      "browserName": "firefox"
+    },
+    {
+      "active": false,
+      "capabilities": {},
+      "headless": false,
+      "id": "ddd9668e-c896-b331-e34b-42d9529a7ff4",
+      "info": "v60.0.3255.59",
+      "name": "opera1",
+      "type": "local",
+      "version": "60.0.3255.59",
+      "browserName": "opera"
+    }
+  ]
+}
