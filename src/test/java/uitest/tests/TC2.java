@@ -13,18 +13,18 @@ class TC2 extends TestNgTestBase {
     @Test
     public void checkForTotalAmountUsingFastCheckout() {
 
-        //commit 1
-         //commit 2
-         // commit 3
-         //commit 4
-         //commit5
+        // commit 1
+        // commit 2
+        // commit 3
+        // commit 4
+        // commit5
+        // commit5
 
-        
         WebDriver driver = getDriver();
         // No setup code needed - {@link TestNgTestBase} creates the driver instance
 
         // Open the page
-        ItemsOverviewPo overview = new ItemsOverviewPo(driver).open("https://demoshop.webtestit.com/");      
+        ItemsOverviewPo overview = new ItemsOverviewPo(driver).open("https://demoshop.webtestit.com/");
 
         // Add items to the cart
         CartPo cart = overview.addItem1ToCart().addItem2ToCart().addItem3ToCart().clickOnCart();
@@ -40,6 +40,6 @@ class TC2 extends TestNgTestBase {
         Assert.assertEquals(confirmation.getTotalAmount(), "€3,700.00");
 
         // No tear down code needed - {@link TestNgTestBase} takes care of the cleanup
-        
+
     }
 }
