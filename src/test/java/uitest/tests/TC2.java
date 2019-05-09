@@ -13,16 +13,12 @@ class TC2 extends TestNgTestBase {
     @Test
     public void checkForTotalAmountUsingFastCheckout() {
 
-        // commit 1
-        // commit 2
-        // commit 3
-        // commit 4
-        // commit5
-        // commit5
+        
 
         WebDriver driver = getDriver();
         // No setup code needed - {@link TestNgTestBase} creates the driver instance
 
+        Assert.fail();
         // Open the page
         ItemsOverviewPo overview = new ItemsOverviewPo(driver).open("https://demoshop.webtestit.com/");
 

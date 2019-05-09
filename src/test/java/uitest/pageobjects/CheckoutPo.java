@@ -13,7 +13,7 @@ public class CheckoutPo {
     // Generated elements
     // Additional data:
     // {"img":"screenshots/11f06113-3eca-5557-a9e7-76bf32e029a4.png"}
-    private By firstNameField = By.cssSelector("[autocomplete='given-name']");
+    private By firstNameFieldaasdsdfsdfsdfsdfsffsfsf = By.cssSelector("[autocomplete='given-name']");
     // Additional data:
     // {"img":"screenshots/a47f4bf9-2ad1-7f24-b336-899d89b69ef5.png"}
     private By secondNameField = By.cssSelector("[autocomplete='family-name']");
@@ -39,7 +39,8 @@ public class CheckoutPo {
 
     // Generated actions
     public CheckoutPo setFirstName(String text) {
-        this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.firstNameField)).sendKeys(text);
+        this.wait.until(ExpectedConditions.visibilityOfElementLocated(this.firstNameFieldaasdsdfsdfsdfsdfsffsfsf))
+                .sendKeys(text);
 
         return this;
     }

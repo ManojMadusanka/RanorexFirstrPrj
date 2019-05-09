@@ -17,6 +17,7 @@ class TC1 extends TestNgTestBase {
         WebDriver driver = getDriver();
         // No setup code needed - {@link TestNgTestBase} creates the driver instance
 
+
         // Open the page
         ItemsOverviewPo overview = new ItemsOverviewPo(driver).open("https://demoshop.webtestit.com/");
 
